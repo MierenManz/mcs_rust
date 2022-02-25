@@ -2,7 +2,7 @@ use crate::datatypes::varint_enums::*;
 use crate::datatypes::Position;
 use crate::datatypes::Slot;
 
-pub struct TeleportConfigPacket {
+pub struct TeleportConfirmPacket {
     pub teleport_id: i32,
 }
 
@@ -64,7 +64,7 @@ pub struct PluginMessagePacket {
     data: Vec<u8>,
 }
 
-pub struct EditBookPackage {
+pub struct EditBookPacket {
     hand: MainHand,
     count: i32,
 }
